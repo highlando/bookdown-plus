@@ -13,21 +13,36 @@ I believe some official bookdown templates will be available in the near future,
 
 With `bookdown+` you can
 
+
 - record guitar chords,
+
+![](showcase/bookdown+guitar.png)
 
 - write a mail in an elegant layout,
 
+![](showcase/bookdown+mail.png)
+
 - write a laboratory journal, or a personal diary,
+
+![](showcase/bookdown+journal.png)
 
 - draw a monthly or weekly or conference calendar,
 
+![](showcase/bookdown+calendar.png)
+
 - and, of course, write academic articles in your favorate way,
+
+![](showcase/bookdown+article.png)
 
 - with chemical molecular formulae and equations,
 
+![](showcase/bookdown+chem.png)
+
 - even in Chinese,
 
-- and more.
+![](showcase/bookdown+articlezh.png)
+
+- and more wonders will come soon.
 
 # Quick start
 

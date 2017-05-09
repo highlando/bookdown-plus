@@ -5,3 +5,7 @@
 .Rproj.user/
 _bookdown_files/
 help/
+_readme.*
+_bookdown.yml
+body.*
+index.*
