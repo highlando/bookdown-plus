@@ -5,7 +5,7 @@
 
 Yes, you _R_ right. Everyone knows that `bookdown` is an excellent package for authoring books on programing languages. But it is only one side of the coin.  It can do more. `bookdown` smells like a tasty cake. I have been waiting and waiting, but nobody cuts it for me. Fine. Now I am helping myself. Therefore I am developing `bookdown+`.
 
-`bookdown+` is an extension of `bookdown`. It is a collection of multiple templates, which I collected years ago on the basis of \LaTeX, and have been tailoring them so that I can work happily under the umbrella of `bookdown`. `bookdown+` shows you the other side of the coin, which helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries.
+`bookdown+` is an extension of `bookdown`. It is a collection of multiple templates, which I collected years ago on the basis of \(\LaTeX\), and have been tailoring them so that I can work happily under the umbrella of `bookdown`. `bookdown+` shows you the other side of the coin, which helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries.
 
 I believe some official bookdown templates will be available in the near future, but I cannot wait. Can you?
 
@@ -48,9 +48,9 @@ With `bookdown+` you can
 
 ## Step 0. Preparation
 
-Before starting, you have to install R, RStudio, bookdown package, and packages which bookdown depends on. See the official manual of bookdown for details.
+Before starting, you have to install R, RStudio, bookdown package, and other software and packages (i.e. `Pandoc`, \(\LaTeX\), `rmarkdown`, `rticle`, `knitr`, etc.) which bookdown depends on. See the [official manual of bookdown](https://bookdown.org/yihui/bookdown/) for details.
 
-If you are ready, download `bookdown+` package as a zip file from Github. Unzip it to a folder in your PC. You will find a file named `start.Rproj`. Double click it, and it will be opened by RStudio.
+If you are ready, [download `bookdown+`](https://github.com/dapengde/bookdown-plus/archive/master.zip) package as a zip file from Github. Unzip it to a folder in your PC. You will find a file named `start.Rproj`. Double click it, and it will be opened by RStudio.
 
 OK, now you can see a `_runme.R` file as well. Open it and run the script, or follow my explanation as follows,
 
