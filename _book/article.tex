@@ -1,0 +1,181 @@
+%\documentclass[bgd, online, hvmath]{copernicus_discussions}
+\documentclass[bgd, online, hvmath]{style/copernicus}
+%\documentclass[hess, online, hvmath]{copernicus}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+%\usepackage{lmodern}
+%\usepackage{amssymb,amsmath}
+\usepackage{fixltx2e} % provides \textsubscript
+
+
+\usepackage{natbib}
+\bibliographystyle{apalike}
+
+\usepackage{color}
+%\usepackage[pdftex]{hyperref}
+\usepackage[colorlinks=true, linkcolor=black, citecolor=blue, urlcolor=black]{hyperref}
+\usepackage{pifont}
+\usepackage{verbatim}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[singlelinecheck=false]{caption}
+\usepackage[figuresright]{rotating}
+\usepackage{float}
+\graphicspath{{pic/}}
+
+\begin{document}\sloppy
+
+\title{bookdown+: Authoring Articles, Mails, Guitar Chords, Chemical Molecular
+Formulae and Equations with R bookdown}
+
+\author{Peng Zhao}
+
+
+%\author[]{NAME}
+%\author[]{NAME}
+%\author[]{NAME}
+
+%\affil[]{ADDRESS}
+%\affil[]{ADDRESS}
+
+%\affil[1]{Department of Micrometeorology, University of Bayreuth, Germany}
+%\affil[2]{Member of Bayreuth Center of Ecology and Environmental Research
+%(BayCEER), University of Bayreuth, Germany}
+%\correspondence{P.~Zhao~(peng.zhao@uni-bayreuth.de), J.~L\"{u}ers~(johannes.lueers@uni-bayreuth.de)}
+%\runningtitle{short title}
+%\runningauthor{authors}
+%\received{23 January 2012}
+%\accepted{28 February 2012}
+%\published{}
+
+
+\firstpage{1}
+\maketitle
+
+\begin{abstract}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum
+\end{abstract}
+
+\section{Introduction}\label{introduction}
+
+\emph{italic} \textbf{bold} \textbf{\emph{italic and bold}}
+\texttt{code} R\textsuperscript{2} CO\textsubscript{2}
+\href{http://pzhao.org}{my website}
+\href{mailto:myemail@pzhao.org}{\nolinkurl{myemail@pzhao.org}}\footnote{footnote,
+  not real} \citet{R-base} Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+qui officia deserunt mollit anim id est laborum \citet{R-bookdown}.
+
+\begin{quote}
+orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.
+\end{quote}
+
+\section{Materials and methods}\label{materials-and-methods}
+
+\subsection{Sites}\label{sites}
+
+Fig. \ref{fig:img1} is a place holder.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/img} 
+
+}
+
+\caption{this is the caption}\label{fig:img1}
+\end{figure}
+
+\subsection{Models}\label{models}
+
+Eq. \eqref{eq:mc2} is an equation.
+
+\begin{equation} 
+E = mc^2
+  \label{eq:mc2}
+\end{equation}
+
+It can be written as \(E = mc^2\).
+
+\section{Results}\label{results}
+
+Fig. \ref{fig:fig1} psum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{article_files/figure-latex/fig1-1} 
+
+}
+
+\caption{caption}\label{fig:fig1}
+\end{figure}
+
+Tab. \ref{tab:tab1} psum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+\begin{table}
+
+\caption{\label{tab:tab1}Here is a nice table!}
+\centering
+\begin{tabular}[t]{rrrrl}
+\toprule
+Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
+\midrule
+5.1 & 3.5 & 1.4 & 0.2 & setosa\\
+4.9 & 3.0 & 1.4 & 0.2 & setosa\\
+4.7 & 3.2 & 1.3 & 0.2 & setosa\\
+4.6 & 3.1 & 1.5 & 0.2 & setosa\\
+5.0 & 3.6 & 1.4 & 0.2 & setosa\\
+\addlinespace
+5.4 & 3.9 & 1.7 & 0.4 & setosa\\
+4.6 & 3.4 & 1.4 & 0.3 & setosa\\
+5.0 & 3.4 & 1.5 & 0.2 & setosa\\
+4.4 & 2.9 & 1.4 & 0.2 & setosa\\
+4.9 & 3.1 & 1.5 & 0.1 & setosa\\
+\addlinespace
+5.4 & 3.7 & 1.5 & 0.2 & setosa\\
+4.8 & 3.4 & 1.6 & 0.2 & setosa\\
+4.8 & 3.0 & 1.4 & 0.1 & setosa\\
+4.3 & 3.0 & 1.1 & 0.1 & setosa\\
+5.8 & 4.0 & 1.2 & 0.2 & setosa\\
+\addlinespace
+5.7 & 4.4 & 1.5 & 0.4 & setosa\\
+5.4 & 3.9 & 1.3 & 0.4 & setosa\\
+5.1 & 3.5 & 1.4 & 0.3 & setosa\\
+5.7 & 3.8 & 1.7 & 0.3 & setosa\\
+5.1 & 3.8 & 1.5 & 0.3 & setosa\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Conclusions}\label{conclusions}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum
+
+\begin{acknowledgements}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.
+\end{acknowledgements}
+
+\bibliography{bib/bib}
+
+\end{document}
