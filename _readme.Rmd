@@ -9,7 +9,7 @@ bibliography: [bib/bib.bib]
 ---
 
 ```{r set-options, echo=FALSE, cache=FALSE}
-# knitr::opts_chunk$set(eval = FALSE)
+knitr::opts_chunk$set(eval = FALSE)
 ```
 
 # Introduction
@@ -129,9 +129,5 @@ If I miss something that I should cite, please let me know.
 # Updates
 
 - 2017-05-09, Version 0.1. A very preliminary version. 
-
-```{r, eval=FALSE, echo=FALSE}
-knitr::purl("_readme.Rmd", output = '_runme.R')
-```
 
 # References
