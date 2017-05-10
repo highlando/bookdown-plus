@@ -4,8 +4,9 @@
 .Ruserdata
 .Rproj.user/
 _bookdown_files/
+_book/
 help/
-_readme.*
+_readme.html
 _bookdown.yml
 body.*
 index.*
