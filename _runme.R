@@ -1,5 +1,5 @@
 ## ------------------------------------------------------------------------
-title <- 'bookdown+: Authoring Articles, Mails, Guitar books, Chemical Molecular Formulae and Equations with R bookdown'
+title <- 'R bookdown+: Authoring Articles, Mails, Guitar books, Chemical Molecular Formulae and Equations with R bookdown'
 author <- 'Peng Zhao'
 
 ## ------------------------------------------------------------------------
@@ -18,8 +18,15 @@ templates  <- c('article',     #1, academic article
 template <- templates[8]
 
 ## ------------------------------------------------------------------------
-source('fun/build.R')
+from_who <- author
+from_address <- 'Maximillian Street 27'
+from_town <- '95440 Bayreuth, Germany'
+from_phone <- '62762524'
+from_email <- 'dapengde@live.com'
+towho <- 'CAMS'
+to_address <- 'Zhongguancunnandajie 46'
+to_town <- '100000 Beijing, China'
 
 ## ------------------------------------------------------------------------
-bookdown::render_book('index.Rmd', 'all')
+source('fun/build.R')
 

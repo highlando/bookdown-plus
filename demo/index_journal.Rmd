@@ -11,7 +11,7 @@ output:
     template: tex/template_journal.tex
     pandoc_args: --chapters
     toc_depth: 3
-    toc_unnumbered: no
+    toc_unnumbered: yes
     toc_appendix: yes
     quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
 documentclass: labbook

@@ -14,7 +14,7 @@ knitr::opts_chunk$set(eval = FALSE)
 
 # Introduction
 
-`bookdown+`? Hmm...sounds like something related to the R package `bookdown` [@R-bookdown]? 
+`bookdown+`? Hmm...sounds like something related to the R[@R-base] package `bookdown` [@R-bookdown]? 
 
 Yes, you **_R_** right. Everyone knows that `bookdown` is an excellent package for authoring books on programming languages. But it is only one side of the coin.  It can do more than expected. `bookdown` smells like a tasty cake. I have been expecting someone to cut it. Now I am helping myself. Therefore I am developing `bookdown+`.
 
@@ -22,38 +22,23 @@ Yes, you **_R_** right. Everyone knows that `bookdown` is an excellent package f
 
 I believe some official bookdown templates will be available in the near future, but I cannot wait. Can you?
 
-# Showcase
+# Features
 
 With `bookdown+` you can
 
-
 - record guitar chords,
-
-![](showcase/bookdown+guitar.png)
 
 - write a mail in an elegant layout,
 
-![](showcase/bookdown+mail.png)
-
 - write a laboratory journal, or a personal diary,
-
-![](showcase/bookdown+journal.png)
 
 - draw a monthly or weekly or conference calendar,
 
-![](showcase/bookdown+calendar.png)
-
 - and, of course, write academic articles in your favourite way,
-
-![](showcase/bookdown+article.png)
 
 - with chemical molecular formulae and equations,
 
-![](showcase/bookdown+chem.png)
-
 - even in Chinese,
-
-![](showcase/bookdown+articlezh.png)
 
 - and more wonders will come soon.
 
@@ -72,7 +57,7 @@ OK, now you can see a `_runme.R` file as well. Open it and run the script, or fo
 Specify the title and the author of your book, article, guitar book, or whatever.
 
 ```{r}
-title <- 'bookdown+: Authoring Articles, Mails, Guitar books, Chemical Molecular Formulae and Equations with R bookdown'
+title <- 'R bookdown+: Authoring Articles, Mails, Guitar books, Chemical Molecular Formulae and Equations with R bookdown'
 author <- 'Peng Zhao'
 ```
 
@@ -96,6 +81,20 @@ templates  <- c('article',     #1, academic article
 template <- templates[8]
 ```
 
+If you choose the template `mail`, you have to clarify the information of the sender and receiver.
+
+```{r}
+from_who <- author
+from_address <- 'Maximillian Street 27'
+from_town <- '95440 Bayreuth, Germany'
+from_phone <- '62762524'
+from_email <- 'dapengde@live.com'
+towho <- 'CAMS'
+to_address <- 'Zhongguancunnandajie 46'
+to_town <- '100000 Beijing, China'
+```
+
+
 Run `fun/build.R`:
 
 ```{r}
@@ -104,14 +103,9 @@ source('fun/build.R')
 
 ## Step 3: Write and Build
 
-Now you can press `ctrl+shift+b`, or run the following code to build a demo book, which you can find in `book/`.
-
-```{r}
-bookdown::render_book('index.Rmd', 'all')
-```
+Now you can press `ctrl+shift+b` to build a demo book, which you can find in `book/`.
 
 Write your own text in `body.Rmd`, and build your own lovely book. 
-
 
 Have fun!
 
@@ -129,5 +123,31 @@ If I miss something that I should cite, please let me know.
 # Updates
 
 - 2017-05-09, Version 0.1. A very preliminary version. 
+
+# To do
+
+- thesis template (en and zh)
+
+- peom book template
+
+- cv template
+
+- write a book introducing bookdown+
+
+# Showcase
+
+![](showcase/bookdown+guitar.png)
+
+![](showcase/bookdown+mail.png)
+
+![](showcase/bookdown+journal.png)
+
+![](showcase/bookdown+calendar.png)
+
+![](showcase/bookdown+article.png)
+
+![](showcase/bookdown+chem.png)
+
+![](showcase/bookdown+articlezh.png)
 
 # References

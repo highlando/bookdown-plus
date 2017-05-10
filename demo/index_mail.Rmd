@@ -5,7 +5,7 @@ date: ""
 output:
   bookdown::pdf_book:
     keep_tex: yes
-    template: tex/template_mail.tex
+    template: tex/template_mail_user.tex
 site: bookdown::bookdown_site
 ---
 

@@ -182,14 +182,37 @@ $endif$
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title{\textcap{Laboratory Journal \\[1cm]  
-\textaut{Beginning 30-05-2012}}}
+% \title{\textcap{Laboratory Journal \\[1cm]  
+% \textaut{Beginning 30-05-2012}}}
 
-\author{
-    \textaut{John Smith}\\ \\ % Your name
-    Master of Science % Your degree
-}
-\date{} % No date by default, add \today if you wish to include the publication date
+% \author{
+    % \textaut{John Smith}\\ \\ % Your name
+    % Master of Science % Your degree
+% }
+% \date{} % No date by default, add \today if you wish to include the publication date
+
+$if(title)$
+  \title{$title$}
+$else$
+  \title{}
+$endif$
+$if(subtitle)$
+\subtitle{$subtitle$}
+$endif$
+
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(institute)$
+\providecommand{\institute}[1]{}
+\institute{$for(institute)$$institute$$sep$ \and $endfor$}
+$endif$
+
+$if(date)$
+  \date{$date$}
+$else$
+  \date{}
+$endif$
 
 \maketitle % Title page
 

@@ -5,7 +5,7 @@
 R bookdown+: Writing Articles, Mails, Guitar Chords, Chemical Molecular Formulae and Equations with R bookdown
 ==============================================================================================================
 
-#### *Peng Zhao* 
+#### *Peng Zhao*
 
 </div>
 
@@ -14,8 +14,9 @@ R bookdown+: Writing Articles, Mails, Guitar Chords, Chemical Molecular Formulae
 Introduction
 ============
 
-`bookdown+`? Hmm…sounds like something related to the R package
-`bookdown` <span class="citation">(Xie 2016)</span>?
+`bookdown+`? Hmm…sounds like something related to the R<span
+class="citation">(R Core Team 2017)</span> package `bookdown` <span
+class="citation">(Xie 2016)</span>?
 
 Yes, you ***R*** right. Everyone knows that `bookdown` is an excellent
 package for authoring books on programming languages. But it is only one
@@ -36,43 +37,32 @@ future, but I cannot wait. Can you?
 
 </div>
 
-<div id="showcase" class="section level1">
+<div id="features" class="section level1">
 
-# Showcase
+Features
+========
 
 With `bookdown+` you can
 
+-   record guitar chords,
 
-- record guitar chords,
+-   write a mail in an elegant layout,
 
-![](showcase/bookdown+guitar.png)
+-   write a laboratory journal, or a personal diary,
 
-- write a mail in an elegant layout,
+-   draw a monthly or weekly or conference calendar,
 
-![](showcase/bookdown+mail.png)
+-   and, of course, write academic articles in your favourite way,
 
-- write a laboratory journal, or a personal diary,
+-   with chemical molecular formulae and equations,
 
-![](showcase/bookdown+journal.png)
+-   even in Chinese,
 
-- draw a monthly or weekly or conference calendar,
+-   and more wonders will come soon.
 
-![](showcase/bookdown+calendar.png)
+</div>
 
-- and, of course, write academic articles in your favourite way,
-
-![](showcase/bookdown+article.png)
-
-- with chemical molecular formulae and equations,
-
-![](showcase/bookdown+chem.png)
-
-- even in Chinese,
-
-![](showcase/bookdown+articlezh.png)
-
-- and more wonders will come soon.
-
+<div id="quick-start" class="section level1">
 
 Quick start
 ===========
@@ -108,7 +98,7 @@ Specify the title and the author of your book, article, guitar book, or
 whatever.
 
 ``` {.r}
-title <- 'bookdown+: Authoring Articles, Mails, Guitar books, Chemical Molecular Formulae and Equations with R bookdown'
+title <- 'R bookdown+: Authoring Articles, Mails, Guitar books, Chemical Molecular Formulae and Equations with R bookdown'
 author <- 'Peng Zhao'
 ```
 
@@ -137,6 +127,20 @@ templates  <- c('article',     #1, academic article
 template <- templates[8]
 ```
 
+If you choose the template `mail`, you have to clarify the information
+of the sender and receiver.
+
+``` {.r}
+from_who <- author
+from_address <- 'Maximillian Street 27'
+from_town <- '95440 Bayreuth, Germany'
+from_phone <- '62762524'
+from_email <- 'dapengde@live.com'
+towho <- 'CAMS'
+to_address <- 'Zhongguancunnandajie 46'
+to_town <- '100000 Beijing, China'
+```
+
 Run `fun/build.R`:
 
 ``` {.r}
@@ -150,13 +154,8 @@ source('fun/build.R')
 Step 3: Write and Build
 -----------------------
 
-Now you can press `ctrl+shift+b`, or run the following code to build a
-demo book, which you can find in `book/`.
-
-``` {.r}
-bookdown::render_book('index.Rmd', 'all')
-```
-
+Now you can press `ctrl+shift+b` to build a demo book, which you can
+find in `book/`.
 
 Write your own text in `body.Rmd`, and build your own lovely book.
 
@@ -195,12 +194,56 @@ Updates
 
 </div>
 
+<div id="to-do" class="section level1">
+
+To do
+=====
+
+-   thesis template (en and zh)
+
+-   peom book template
+
+-   cv template
+
+-   write a book introducing bookdown+
+
+</div>
+
+<div id="showcase" class="section level1">
+
+Showcase
+========
+
+![](showcase/bookdown+guitar.png)
+
+![](showcase/bookdown+mail.png)
+
+![](showcase/bookdown+journal.png)
+
+![](showcase/bookdown+calendar.png)
+
+![](showcase/bookdown+article.png)
+
+![](showcase/bookdown+chem.png)
+
+![](showcase/bookdown+articlezh.png)
+
+</div>
+
 <div id="references" class="section level1 unnumbered">
 
 References
 ==========
 
 <div id="refs" class="references">
+
+<div id="ref-R-base">
+
+R Core Team. 2017. *R: A Language and Environment for Statistical
+Computing*. Vienna, Austria: R Foundation for Statistical Computing.
+<https://www.R-project.org/>.
+
+</div>
 
 <div id="ref-R-bookdown">
 
