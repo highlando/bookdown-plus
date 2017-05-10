@@ -2,10 +2,10 @@
 
 <div id="header" class="fluid-row">
 
-R bookdown+: Writing Articles, Mails, Guitar Chords, Chemical Molecular Formulae and Equations with R bookdown {#r-bookdown-writing-articles-mails-guitar-chords-chemical-molecular-formulae-and-equations-with-r-bookdown .title .toc-ignore}
+R bookdown+: Writing Articles, Mails, Guitar Chords, Chemical Molecular Formulae and Equations with R bookdown
 ==============================================================================================================
 
-#### *Peng Zhao* {#peng-zhao .author}
+#### *Peng Zhao* 
 
 </div>
 
@@ -188,68 +188,6 @@ demo book, which you can find in `book/`.
 bookdown::render_book('index.Rmd', 'all')
 ```
 
-    ## 
-    ## 
-    ## processing file: journal.Rmd
-
-    ## 
-      |                                                                       
-      |                                                                 |   0%
-      |                                                                       
-      |.........                                                        |  14%
-    ##   ordinary text without R code
-    ## 
-    ## 
-      |                                                                       
-      |...................                                              |  29%
-    ## label: img1 (with options) 
-    ## List of 4
-    ##  $ fig.cap  : chr "this is the caption"
-    ##  $ out.width: chr "80%"
-    ##  $ fig.align: chr "center"
-    ##  $ echo     : logi FALSE
-    ## 
-    ## 
-      |                                                                       
-      |............................                                     |  43%
-    ##   ordinary text without R code
-    ## 
-    ## 
-      |                                                                       
-      |.....................................                            |  57%
-    ## label: fig1 (with options) 
-    ## List of 4
-    ##  $ fig.cap  : chr "caption"
-    ##  $ out.width: chr "80%"
-    ##  $ fig.align: chr "center"
-    ##  $ echo     : logi FALSE
-
-    ## 
-      |                                                                       
-      |..............................................                   |  71%
-    ##   ordinary text without R code
-    ## 
-    ## 
-      |                                                                       
-      |........................................................         |  86%
-    ## label: tab1 (with options) 
-    ## List of 2
-    ##  $ tidy: logi FALSE
-    ##  $ echo: logi FALSE
-    ## 
-    ## 
-      |                                                                       
-      |.................................................................| 100%
-    ##   ordinary text without R code
-
-    ## output file: journal.knit.md
-
-    ## "D:/Program Files/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS journal.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output journal.tex --table-of-contents --toc-depth 3 --template "tex\template_journal.tex" --number-sections --highlight-style tango --latex-engine xelatex --natbib --chapters --variable tables=yes --standalone --bibliography bib/bib
-
-    ## 
-    ## Output created: _book/journal.pdf
-
-    ## [1] "D:/googledrive/a1/bookdown-plus/_book/journal.pdf"
 
 Write your own text in `body.Rmd`, and build your own lovely book.
 
