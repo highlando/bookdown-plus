@@ -24,23 +24,25 @@ With `R bookdown+` users can
 -   even in Chinese,
 -   and more wonders will come soon.
 
-Full documentation can be found in the book [R bookdown+ Textbook](https://bookdown.org/baydap/bookdown).
+Full documentation can be found in the book [R bookdown+ Textbook](https://bookdown.org/baydap/bookdown-plus).
 
 ## Showcase
 
-![](showcase/bookdown+guitar.png)
+![showcase/_bookdown+guitar.png](showcase/bookdown+guitar.png)
 
-![](showcase/bookdown+mail.png)
+![showcase/_bookdown+mail.png](showcase/bookdown+mail.png)
 
-![](showcase/bookdown+journal.png)
+![showcase/_bookdown+journal.png](showcase/bookdown+journal.png)
 
-![](showcase/bookdown+calendar.png)
+![showcase/_bookdown+calendar.png](showcase/bookdown+calendar.png)
 
-![](showcase/bookdown+article.png)
+![showcase/_bookdown+article.png](showcase/bookdown+article.png)
 
-![](showcase/bookdown+chem.png)
+![showcase/_bookdown+chem.png](showcase/bookdown+chem.png)
 
-![](showcase/bookdown+articlezh.png)
+![showcase/_bookdown+articlezh.png](showcase/bookdown+articlezh.png)
+
+![showcase/_bookdown+article_mdpi.png](showcase/bookdown+article_mdpi.jpg)
 
 # Quick start
 
