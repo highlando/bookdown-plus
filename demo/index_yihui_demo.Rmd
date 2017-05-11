@@ -6,7 +6,7 @@ site: bookdown::bookdown_site
 output: 
   bookdown::pdf_book:
     includes:
-      in_header: tex/template_original.tex
+      in_header: tex/template_yihui_demo.tex
     latex_engine: xelatex
     citation_package: natbib
     keep_tex: yes

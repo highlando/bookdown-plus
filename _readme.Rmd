@@ -72,13 +72,13 @@ templates  <- c('article',     #1, academic article
                 'chemistry',   #4, chemical molecular formulae and equations
                 'chemistry_zh',#5, in Chinese,
                 'guitar',      #6, guitar book
-                'mail',        #7, mail, in progress
-                'journal',     #8, laboratory journal, or personal diary
-                'mini',        #9, a mini demo by Yihui
-                'original',    #10, the original demo by Yihui
-                'book_zh'      #11, the demo in Chinese by Yihui
+                'journal',     #7, laboratory journal, or personal diary
+                'mail',        #8, mail, in progress
+                'yihui_mini',  #9, a mini demo by Yihui
+                'yihui_demo',  #10, the original demo by Yihui
+                'yihui_zh'     #11, the demo in Chinese by Yihui
 )
-template <- templates[8]
+template <- templates[7]
 ```
 
 If you choose the template `mail`, you have to clarify the information of the sender and receiver.
@@ -89,7 +89,7 @@ from_address <- 'Maximillian Street 27'
 from_town <- '95440 Bayreuth, Germany'
 from_phone <- '62762524'
 from_email <- 'dapengde@live.com'
-towho <- 'CAMS'
+to_who <- 'CAMS'
 to_address <- 'Zhongguancunnandajie 46'
 to_town <- '100000 Beijing, China'
 ```
@@ -111,12 +111,13 @@ Have fun!
 
 # Citations
 
-`bookdown+` is developed on the basis of the following outstanding work:
+`bookdown+` would not have been developed without the following outstanding work:
 
-- R bookdown package [@R-bookdown]
+- R bookdown package [@R-bookdown] (may thanks to Yihui!)
 - Two minimal book examples using bookdown by Yihui Xie ^[https://github.com/yihui/bookdown-minimal] ^[https://github.com/rstudio/bookdown-demo]
 - gchords, a LaTeX package for typesetting guitar chord diagrams by Kasper Peeters ^[http://kasper.phi-sci.com/gchords/]
 - Copernicus Publications LaTeX Package ^[http://publications.copernicus.org/for_authors/latex_instructions.html]
+- Compact Laboratory Book LaTeX Template by Joan Queralt Gil ^[http://phobos.xtec.cat/jqueralt] using the labbook class by Frank Kuster ^ [http://www.ctan.org/tex-archive/macros/latex/contrib/labbook/]
 
 If I miss something that I should cite, please let me know.
 

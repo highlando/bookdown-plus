@@ -8,7 +8,7 @@ output:
     dev: "cairo_pdf"
     latex_engine: xelatex
     citation_package: natbib
-    template: tex/template_book_zh.tex
+    template: tex/template_yihui_zh.tex
     pandoc_args: --chapters
     toc_depth: 3
     toc_unnumbered: no
