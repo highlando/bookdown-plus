@@ -28,21 +28,33 @@ Full documentation can be found in the book [R bookdown+ Textbook](https://bookd
 
 ## Showcase
 
-![showcase/_bookdown+guitar.png](showcase/bookdown+guitar.png)
+![](showcase/bookdown+article.jpg)
 
-![showcase/_bookdown+mail.png](showcase/bookdown+mail.png)
+![](showcase/bookdown+article_mdpi.jpg)
 
-![showcase/_bookdown+journal.png](showcase/bookdown+journal.png)
+![](showcase/bookdown+article_zh.jpg)
 
-![showcase/_bookdown+calendar.png](showcase/bookdown+calendar.png)
+![](showcase/bookdown+calendar.jpg)
 
-![showcase/_bookdown+article.png](showcase/bookdown+article.png)
+![](showcase/bookdown+chemistry.jpg)
 
-![showcase/_bookdown+chem.png](showcase/bookdown+chem.png)
+![](showcase/bookdown+guitar.jpg)
 
-![showcase/_bookdown+articlezh.png](showcase/bookdown+articlezh.png)
+![](showcase/bookdown+journal.jpg)
 
-![showcase/_bookdown+article_mdpi.png](showcase/bookdown+article_mdpi.jpg)
+![](showcase/bookdown+mail.jpg)
+
+![](showcase/bookdown+poem.jpg)
+
+![](showcase/bookdown+thesis_classic.jpg)
+
+![](showcase/bookdown+thesis_ubt.jpg)
+
+![](showcase/bookdown+yihui_demo.jpg)
+
+![](showcase/bookdown+yihui_mini.jpg)
+
+![](showcase/bookdown+yihui_zh.jpg)
 
 # Quick start
 
@@ -125,13 +137,13 @@ Have fun!
 
 ## Updates
 
+-   2017-05-12. **Version 0.3**: Some more template.
 -   2017-05-11. **Version 0.2**: One more template, license, new readme. **R bookdown+ Textbook** started.
 -   2017-05-09. **Version 0.1**. A very preliminary version.
 
 ## To do
 
--   thesis template (en and zh)
--   peom book template
+-   thesis template (zh)
 -   cv template
 
 

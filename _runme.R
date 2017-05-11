@@ -6,13 +6,19 @@ templates  <- c('article',     #1, academic article
                 'guitar',      #6, guitar book
                 'mail',        #7, mail, in progress
                 'journal',     #8, laboratory journal, or personal diary
-                'mini',        #9, a mini demo by Yihui
-                'original',    #10, the original demo by Yihui
-                'book_zh',     #11, the demo in Chinese by Yihui
-                'article_mdpi' #12, academic article by mdpi
+                'yihui_mini',  #9, a mini demo by Yihui
+                'yihui_demo',  #10, the original demo by Yihui
+                'yihui_zh',    #11, the demo in Chinese by Yihui
+                'article_mdpi',   #12, academic article by mdpi
+                'thesis_classic', #13, classic thesis
+                'thesis_ubt',     #14, thesis of University of Bayreuth
+                'poem'         #15, poem
 )
-template <- templates[12]
 
+i <- 0
+
+i <- i + 1
+template <- templates[9]
 title <- 'R bookdown+: Authoring Articles, Mails, Guitar books, Chemical Molecular Formulae and Equations with R bookdown'
 author <- 'Peng Zhao'
 
@@ -25,6 +31,10 @@ if (template == 'mail') {
   to_who <- 'CAMS'
   to_address <- 'Zhongguancunnandajie 46'
   to_town <- '100000 Beijing, China'
+}
+
+if (template == 'poem') {
+  title <- 'Poem bookdown'
 }
 
 source('fun/build.R')

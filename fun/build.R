@@ -10,6 +10,8 @@ bodyfile <- function(x) {
   if (x == 'mail') return('demo/body_mail.Rmd')
   if (x == 'journal') return('demo/body_journal.Rmd')
   if (x == 'yihui_zh') return('demo/body_yihui_zh.Rmd')
+  if (x == 'thesis_classic') return('demo/body_thesis_classic.Rmd')
+  if (x == 'poem') return('demo/body_poem.Rmd')
   'demo/body.Rmd'
 }
 
@@ -23,7 +25,7 @@ backup <- function(filename, ifbackup = TRUE) {
       filenamepost <- filenamesplit[filenamesplitl]
       backupfile <- paste0('backup/', paste(filenamesplit[1:tolength], collapse = '_'), '-', format(Sys.time(), '%Y-%m-%d-%H-%M-%S'), '.', filenamepost)
       file.copy(filename, backupfile)
-      print(paste('File exsits. Backuped to', backupfile, ':)'))
+      print(paste(filename, 'exsits. Backuped to', backupfile, ':)'))
     } else {
       print(paste(filename, 'does not exist. No need to bakcup :)'))
     }
@@ -59,7 +61,7 @@ file.copy(bodydemo, bodynew, copy.mode = FALSE, overwrite = TRUE)
 
 ### article_zh needs an additional abstract.tex file
 if (template == 'article_zh') {
-  bakcup('abstract.tex')
+  backup('abstract.tex')
   file.copy('tex/template_article_zh_abstract.tex', 'abstract.tex', copy.mode = FALSE, overwrite = TRUE)
 }
 

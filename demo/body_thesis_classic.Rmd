@@ -2,6 +2,7 @@
 
 `bookdown+`? Hmm...sounds like something related to the R[@R-base] package `bookdown` [@R-bookdown]? 
 
+\graffito{You can put some additional information here}
 
 Yes, you **_R_** right. Everyone knows that `bookdown` is an excellent package for authoring books on programming languages. But it is only one side of the coin.  It can do more than expected. `bookdown` smells like a tasty cake. I have been expecting someone to cut it. Now I am helping myself. Therefore I am developing `bookdown+`.
 
