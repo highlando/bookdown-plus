@@ -26,36 +26,6 @@ With `R bookdown+` users can
 
 Full documentation can be found in the book [R bookdown+ Textbook](https://bookdown.org/baydap/bookdown-plus).
 
-## Showcase
-
-![](showcase/bookdown+article.jpg)
-
-![](showcase/bookdown+article_mdpi.jpg)
-
-![](showcase/bookdown+article_zh.jpg)
-
-![](showcase/bookdown+calendar.jpg)
-
-![](showcase/bookdown+chemistry.jpg)
-
-![](showcase/bookdown+guitar.jpg)
-
-![](showcase/bookdown+journal.jpg)
-
-![](showcase/bookdown+mail.jpg)
-
-![](showcase/bookdown+poem.jpg)
-
-![](showcase/bookdown+thesis_classic.jpg)
-
-![](showcase/bookdown+thesis_ubt.jpg)
-
-![](showcase/bookdown+yihui_demo.jpg)
-
-![](showcase/bookdown+yihui_mini.jpg)
-
-![](showcase/bookdown+yihui_zh.jpg)
-
 # Quick start
 
 This is a 3-step quick start. Although this section might not be the latest version, the general idea won't change. Please see [R bookdown+ Textbook](https://bookdown.org/baydap/bookdown) to keep up with the update.
@@ -134,6 +104,37 @@ find in `book/`.
 Write your own text in `body.Rmd`, and build your own lovely book.
 
 Have fun!
+
+
+## Showcase
+
+![](showcase/bookdown+article.jpg)
+
+![](showcase/bookdown+article_mdpi.jpg)
+
+![](showcase/bookdown+article_zh.jpg)
+
+![](showcase/bookdown+calendar.jpg)
+
+![](showcase/bookdown+chemistry.jpg)
+
+![](showcase/bookdown+guitar.jpg)
+
+![](showcase/bookdown+journal.jpg)
+
+![](showcase/bookdown+mail.jpg)
+
+![](showcase/bookdown+poem.jpg)
+
+![](showcase/bookdown+thesis_classic.jpg)
+
+![](showcase/bookdown+thesis_ubt.jpg)
+
+![](showcase/bookdown+yihui_demo.jpg)
+
+![](showcase/bookdown+yihui_mini.jpg)
+
+![](showcase/bookdown+yihui_zh.jpg)
 
 ## Updates
 
