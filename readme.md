@@ -110,11 +110,11 @@ Have fun!
 
 - article
 
-![](showcase/article1.jpg]![](showcase/article2.jpg)
+![](showcase/article1.jpg] ![](showcase/article2.jpg)
 
 - article_mdpi1
 
-![](showcase/article_mdpi1.jpg)![](showcase/article_mdpi2.jpg)![](showcase/article_mdpi3.jpg)![](showcase/article_mdpi4.jpg)
+![](showcase/article_mdpi1.jpg) ![](showcase/article_mdpi2.jpg) ![](showcase/article_mdpi3.jpg) ![](showcase/article_mdpi4.jpg)
 
 ![](showcase/bookdown+article_zh.jpg)
 
