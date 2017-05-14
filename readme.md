@@ -109,53 +109,71 @@ Have fun!
 ## Showcase
 
 - article
+
 ![](showcase/bookdown+article.jpg)
 
 - article_mdpi1
+
 ![](showcase/bookdown+article_mdpi.jpg)
 
 - article_zh
+
 ![](showcase/bookdown+article_zh.jpg)
 
 - calendar
+
 ![](showcase/bookdown+calendar.jpg)
 
 - chemistry
+
 ![](showcase/bookdown+chemistry.jpg)
 
 - guitar
+
 ![](showcase/bookdown+guitar.jpg)
 
 - journal
+
 ![](showcase/bookdown+journal.jpg)
 
 - mail
+
 ![](showcase/bookdown+mail.jpg)
+
 ![](showcase/bookdown+mail2.png)
 
 - poem
+
 ![](showcase/bookdown+poem.jpg)
 
 - thesis_classic
+
 ![](showcase/bookdown+thesis_classic.jpg)
 
 - thesis_ubt
+
 ![](showcase/bookdown+thesis_ubt.jpg)
 
-- thesis_zh
+- thesis_zju
+
 ![](showcase/bookdown+thesis_zju.jpg)
 
 - yihui_demo
+
 ![](showcase/bookdown+yihui_demo.jpg)
 
 - yihui_mini
+
 ![](showcase/bookdown+yihui_mini.jpg)
 
 - yihui_zh
+
 ![](showcase/bookdown+yihui_zh.jpg)
 
 - poster
+
 ![](showcase/bookdown+poster_ocean.jpg)
+
 ![](showcase/bookdown+poster_eco.jpg)
 
 ## Updates
