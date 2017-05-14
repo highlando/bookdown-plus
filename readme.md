@@ -131,7 +131,7 @@ Have fun!
 
 - mail
 ![](showcase/bookdown+mail.jpg)
-![](bookdown+mail2.png)
+![](showcase/bookdown+mail2.png)
 
 - poem
 ![](showcase/bookdown+poem.jpg)
