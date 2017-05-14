@@ -24,7 +24,7 @@ With `R bookdown+` users can
 -   even in Chinese,
 -   and more wonders will come soon.
 
-Full documentation can be found in the book [R bookdown+ Textbook](https://bookdown.org/baydap/bookdown-plus).
+Full documentation can be found in the book [R bookdown+ Textbook](https://bookdown.org/baydap/bookdown-plus). The webpage looks so-so, while the [pdf file](https://bookdown.org/baydap/bookdown-plus) might give you a little surprise.  
 
 # Quick start
 
