@@ -110,7 +110,7 @@ Have fun!
 
 - article
 
-![](showcase/article1]![](showcase/article2)
+![](showcase/article1.jpg]![](showcase/article2.jpg)
 
 - article_mdpi1
 
