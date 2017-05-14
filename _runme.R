@@ -12,14 +12,16 @@ templates  <- c('article',     #1, academic article
                 'article_mdpi',   #12, academic article by mdpi
                 'thesis_classic', #13, classic thesis
                 'thesis_ubt',     #14, thesis of University of Bayreuth
-                'poem'         #15, poem
+                'thesis_zju',  #15, thesis of Zhejiang Uni., in Chinese
+                'poem',        #16, poem
+                'poster'       #17, poster
 )
 
 i <- 0
 
 i <- i + 1
-template <- templates[9]
-title <- 'R bookdown+: Authoring Articles, Mails, Guitar books, Chemical Molecular Formulae and Equations with R bookdown'
+template <- templates[17]
+title <- 'R bookdown+: Authoring varied types of books and documents with R bookdown'
 author <- 'Peng Zhao'
 
 if (template == 'mail') {
@@ -31,11 +33,21 @@ if (template == 'mail') {
   to_who <- 'CAMS'
   to_address <- 'Zhongguancunnandajie 46'
   to_town <- '100000 Beijing, China'
+  type <- c('business', 'personal')[2]
+  fontsize <- c(
+    'tiny', 'scriptsize', 'footnotesize', 'small', 'normalsize',
+    'large', 'Large', 'LARGE', 'huge','Huge') [9]
 }
 
 if (template == 'poem') {
   title <- 'Poem bookdown'
 }
 
+if (template == 'poster'){ # choose one theme
+  poster_theme <- c('ocean', 'eco', 'rose')[3]
+}
+
 source('fun/build.R')
+
+# if you choose 'poster' template, now open index.Rmd and press ctrl+shift+k (twice if citation) to compile it. why? because the poster template is based on rmarkdown rather than bookdown. in progress...
 

@@ -137,16 +137,14 @@ Have fun!
 ![](showcase/bookdown+yihui_zh.jpg)
 
 ## Updates
-
--   2017-05-12. **Version 0.3**: Some more template.
--   2017-05-11. **Version 0.2**: One more template, license, new readme. **R bookdown+ Textbook** started.
--   2017-05-09. **Version 0.1**. A very preliminary version.
+- 2017-05-14. **Version 0.3.1**: New template available: poster.
+- 2017-05-12. **Version 0.3.0**: Some more template.
+- 2017-05-11. **Version 0.2.0**: One more template, license, new readme. **R bookdown+ Textbook** started.
+- 2017-05-09. **Version 0.1.0**. A very preliminary version.
 
 ## To do
 
--   thesis template (zh)
 -   cv template
-
 
 # License
 

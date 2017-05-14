@@ -11,6 +11,7 @@ bodyfile <- function(x) {
   if (x == 'journal') return('demo/body_journal.Rmd')
   if (x == 'yihui_zh') return('demo/body_yihui_zh.Rmd')
   if (x == 'thesis_classic') return('demo/body_thesis_classic.Rmd')
+  if (x == 'thesis_zju') return('demo/body_thesis_zju.Rmd')
   if (x == 'poem') return('demo/body_poem.Rmd')
   'demo/body.Rmd'
 }
@@ -32,14 +33,33 @@ backup <- function(filename, ifbackup = TRUE) {
   }
 }
 
-###### prepare index.Rmd ######
+clearposter <- function() {
+  filename <- c(#'index.bbl',
+    'index.blg', 'index.log', 'index.markdown', 'index.aux',
+    'index.nav', 'index.out', 'index.snm', 'index.tex', 'index.toc',
+    'index-blx.bib', 'index-filtered.markdown', 'index.run.xml',
+    'index.synctex.gz')
+  file.remove(dir()[dir() %in% filename])
+  dirname <- c('index-cache', 'index-figures', 'tex/__pycache__')
+  unlink(dir()[dir() %in% dirname], recursive = TRUE, force = TRUE)
+  unlink('tex/__pycache__', recursive = TRUE, force = TRUE)
+}
 
+###### prepare index.Rmd ######
 book_filename <- template
 index <- readLines(paste0('demo/index_', template, '.Rmd'), encoding = 'UTF-8')
-index[grep('title: "', index)] <- paste0('title: "', title, '"')
-index[grep('author: "', index)] <- paste0('author: "', author, '"')
+index[grep('^title: "', index)] <- paste0('title: "', title, '"')
+index[grep('^author: "', index)] <- paste0('author: "', author, '"')
+# index[grep('titleshort: "', index)] <- paste0('titleshort: "', titleshort, '"')
+
+if (template == 'poster') {
+  index[grep('^%% template=tex/poster.tex', index)] <- paste0('%% template=tex/poster_', poster_theme, '.tex')
+
+}
 backup('index.Rmd')
 writeLines(index, 'index.Rmd', useBytes = TRUE)
+
+if (template != 'poster') {
 
 ###### prepare _bookdown.yml, for the output filename of the book. ######
 filenameyml <- readLines('demo/_bookdown.yml', encoding = 'UTF-8')
@@ -68,7 +88,6 @@ if (template == 'article_zh') {
 ### mail needs an additional template_mail.tex as a before_body part.
 if (template == 'mail') {
   tmail <- readLines('tex/template_mail.tex')
-
   tmail[51] <- paste0('{\\bfseries ', from_who, '}\\\\[.35ex]')
   tmail[53] <- paste0(from_address, '\\\\')
   tmail[54] <- paste0(from_town, '\\\\[.35ex]')
@@ -80,10 +99,14 @@ if (template == 'mail') {
   tmail[64] <- paste0(to_town, '\\\\[.35ex]')
 
   tmail[78] <- paste0('{\\bfseries ', from_who, '}\\\\')
+  tmail[75] <- paste(switch(type, 'business' = '\\sffamily', 'personal' = '\\calligra' ),
+                      fontsize, sep = '\\')
   writeLines(tmail, 'tex/template_mail_user.tex')
 }
 
 ### article_mdpi needs an additional bst file
 if (template == 'article_mdpi') {
   file.copy('style/mdpi.bst', 'mdpi.bst')
+}
+
 }
