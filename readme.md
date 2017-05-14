@@ -108,9 +108,13 @@ Have fun!
 
 ## Showcase
 
-![](showcase/bookdown+article.jpg)
+- article
 
-![](showcase/bookdown+article_mdpi.jpg)
+![](showcase/article1]![](showcase/article2)
+
+- article_mdpi1
+
+![](showcase/article_mdpi1.jpg)![](showcase/article_mdpi2.jpg)![](showcase/article_mdpi3.jpg)![](showcase/article_mdpi4.jpg)
 
 ![](showcase/bookdown+article_zh.jpg)
 
