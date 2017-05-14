@@ -116,7 +116,7 @@ Have fun!
 
 - article_mdpi1
 
-![](showcase/article_mdpi1.jpg) ![](showcase/article_mdpi2.jpg) ![](showcase/article_mdpi3.jpg) ![](showcase/article_mdpi4.jpg)
+![](showcase/article_mdpi1.png) ![](showcase/article_mdpi2.png) ![](showcase/article_mdpi3.png) ![](showcase/article_mdpi4.png)
 
 ![](showcase/bookdown+article_zh.jpg)
 
