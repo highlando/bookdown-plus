@@ -4,6 +4,8 @@ R bookdown+: Writing Articles, Mails, Guitar Chords, Chemical Molecular Formulae
 
 #### *Peng Zhao*
 
+# **The `bookdown+`project is migrated to [R bookdownplus package](https://github.com/pzhaonet/bookdownplus). Although the development of this repo is terminated, users can follow the Quick Start section and download this repo.**
+
 # Introduction
 
 `R bookdown+` is an extension of `R bookdown` (Xie 2016). It is a collection of
@@ -38,7 +40,7 @@ knitr, etc.) which bookdown depends on. See the official [manual](https://bookdo
 bookdown for details.
 
 If you are ready, [download
-`R bookdown+`](https://github.com/dapengde/bookdown-plus/archive/master.zip)
+`R bookdown+`](https://github.com/pzhaonet/bookdown-plus/archive/master.zip)
 package as a zip file from Github. Unzip it to a folder in your PC. You
 will find a file named `_start.Rproj`. Double click it, and it will be
 opened by RStudio.
@@ -190,4 +192,4 @@ Have fun!
 
 Copyright 2017 [Peng Zhao](http://pzhao.org).
 
-Released under the [MIT](https://github.com/dapengde/bookdown-plus/blob/master/LICENSE.md) license.
+Released under the [MIT](https://github.com/pzhaonet/bookdown-plus/blob/master/LICENSE.md) license.
